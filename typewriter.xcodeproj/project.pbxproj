@@ -10,6 +10,11 @@
 		F6405ED1201A9A19007E84A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6405ED0201A9A19007E84A7 /* AppDelegate.swift */; };
 		F6405ED3201A9A19007E84A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6405ED2201A9A19007E84A7 /* Assets.xcassets */; };
 		F6405ED6201A9A19007E84A7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F6405ED4201A9A19007E84A7 /* MainMenu.xib */; };
+		F6405EDF201A9DDA007E84A7 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6405EDE201A9DDA007E84A7 /* StatusMenuController.swift */; };
+		F6405EE3201AAD99007E84A7 /* keypress.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6405EE2201AAD99007E84A7 /* keypress.wav */; };
+		F6405EE5201AB4A0007E84A7 /* mech.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6405EE4201AB4A0007E84A7 /* mech.wav */; };
+		F6405EE7201AB4FB007E84A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6405EE6201AB4FB007E84A7 /* Assets.xcassets */; };
+		F6405EE9201B1640007E84A7 /* otherkey.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6405EE8201B1640007E84A7 /* otherkey.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		F6405ED5201A9A19007E84A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		F6405ED7201A9A19007E84A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6405ED8201A9A19007E84A7 /* typewriter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = typewriter.entitlements; sourceTree = "<group>"; };
+		F6405EDE201A9DDA007E84A7 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
+		F6405EE2201AAD99007E84A7 /* keypress.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = keypress.wav; sourceTree = "<group>"; };
+		F6405EE4201AB4A0007E84A7 /* mech.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mech.wav; sourceTree = "<group>"; };
+		F6405EE6201AB4FB007E84A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6405EE8201B1640007E84A7 /* otherkey.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = otherkey.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +62,13 @@
 			isa = PBXGroup;
 			children = (
 				F6405ED0201A9A19007E84A7 /* AppDelegate.swift */,
+				F6405EDE201A9DDA007E84A7 /* StatusMenuController.swift */,
 				F6405ED2201A9A19007E84A7 /* Assets.xcassets */,
 				F6405ED4201A9A19007E84A7 /* MainMenu.xib */,
+				F6405EE2201AAD99007E84A7 /* keypress.wav */,
+				F6405EE8201B1640007E84A7 /* otherkey.wav */,
+				F6405EE4201AB4A0007E84A7 /* mech.wav */,
+				F6405EE6201AB4FB007E84A7 /* Assets.xcassets */,
 				F6405ED7201A9A19007E84A7 /* Info.plist */,
 				F6405ED8201A9A19007E84A7 /* typewriter.entitlements */,
 			);
@@ -119,8 +134,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6405EE3201AAD99007E84A7 /* keypress.wav in Resources */,
+				F6405EE5201AB4A0007E84A7 /* mech.wav in Resources */,
 				F6405ED3201A9A19007E84A7 /* Assets.xcassets in Resources */,
 				F6405ED6201A9A19007E84A7 /* MainMenu.xib in Resources */,
+				F6405EE7201AB4FB007E84A7 /* Assets.xcassets in Resources */,
+				F6405EE9201B1640007E84A7 /* otherkey.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6405EDF201A9DDA007E84A7 /* StatusMenuController.swift in Sources */,
 				F6405ED1201A9A19007E84A7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
